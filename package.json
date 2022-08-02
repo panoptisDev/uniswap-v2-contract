@@ -2,8 +2,8 @@
   "name": "uniswap-v2-contract",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/33357/uniswap-v2-contract.git",
-  "author": "33357 <43600005+33357@users.noreply.github.com>",
+  "repository": "https://github.com/tangminjie/uniswap-v2-contract.git",
+  "author": "tangminjie",
   "license": "MIT",
   "scripts": {
     "build": "hardhat compile",
@@ -12,13 +12,9 @@
     "localhost": "yarn run hardhat node --network hardhat --no-deploy --show-accounts",
     "format:fix": "yarn prettier --write \"**/*.{ts,js,sol}\" && cd sdk && yarn format:fix"
   },
-  "dependencies": {
-    "@uniswap/lib": "4.0.1-alpha",
-    "@uniswap/v2-core": "1.0.0"
-  },
   "devDependencies": {
     "@ethersproject/contracts": "^5.4.1",
-    "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers@0.3.0-beta.10",
+    "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers",
     "@nomiclabs/hardhat-etherscan": "^2.1.6",
     "@nomiclabs/hardhat-waffle": "^2.0.0",
     "@openzeppelin/contracts": "^4.3.2",
@@ -39,7 +35,7 @@
     "ethers": "^5.4.5",
     "hardhat": "^2.6.0",
     "hardhat-contract-sizer": "^2.0.3",
-    "hardhat-deploy": "^0.8.11",
+    "hardhat-deploy": "^0.11.2",
     "hardhat-gas-reporter": "^1.0.4",
     "mocha": "^9.0.2",
     "pino": "^7.0.0-rc.1",
@@ -48,6 +44,7 @@
     "solidity-coverage": "^0.7.17",
     "ts-node": "^10.1.0",
     "typechain": "^5.1.2",
-    "typescript": "^4.3.5"
+    "typescript": "^4.3.5",
+    "@uniswap/lib": "4.0.1-alpha"
   }
 }
