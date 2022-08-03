@@ -31,3 +31,9 @@
 1. 修改前端 Router地址 Multicall地址，支持的`ChainTokenList`,支持的区块链浏览器地址`getEthercanLink`
 2. 修改引用的SDK，tokenList列表。
 
+## 部署 polygon 地址
+reusing "WETH9" at 0xa9f70C0f21F11Ac64FF384469bB40D61b1A1D189
+reusing "UniswapV2Factory" at 0xe4f86a43fd5bF8e021c64CC2E8b6BDf0b757881b
+pairhash ==>  0x2bbf561059bfad76dd3e7f5e7e45d68e76db16d20d00dc76889202628a6417d9
+reusing "UniswapV2Router02" at 0xBDCdd22150E7d0D0Ee5800bAbB6fce5636Da3316
+reusing "Multicall" at 0xaE849B4b29495f83EcBe21EFeCB2eD30e374D0b9
